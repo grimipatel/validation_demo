@@ -300,7 +300,7 @@
                    </script>-->
 
 
-                   <h1>javascript functions </h1>
+                   <!--<h1>javascript functions </h1>
                    <p>using function as variable</p>
                    <p id = "demo"></p>
 
@@ -311,7 +311,27 @@
                     function toCelsius(fahrenheit){
                       return (5/9) * (fahrenheit-32)
                     }
+                   </script>-->
+
+                   <h1>javascript function</h1>
+                   <p>Outside myFunction() carName is undefined</p>
+
+                   <p id = "demo1"></p>
+                   <p id = "demo2"></p>
+                   
+                   <script>
+                    let text = "Outside: " + typeof carName;
+                    document.getElementById("demo1").innerHTML = text;
+                    
+                    function myFunction() {
+                    let carName = "Volvo";
+                    let text = "Inside: " + typeof carName + " " + carName; 
+                    document.getElementById("demo2").innerHTML = text;
+                  }
+
+                  myFunction(); 
                    </script>
+
 
                    
 
