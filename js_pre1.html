@@ -341,7 +341,7 @@
                     document.getElementById("demo").innerHTML=length;
                    </script>-->
 
-                   <h1>if statements</h1>
+                   <!--<h1>if statements</h1>
 
                    <p>Display "Good day!" if the hour is less than 18:00:</p>
 
@@ -351,7 +351,25 @@
                          document.getElementById("demo").innerHTML = "Good day!";
                     }
 
+                   </script>-->
+
+                   <h1>else statements</h1>
+                   <p>A time-based greeting:</p>
+                   <p id ="demo"></p>
+                   <script>
+                    const hour= new Date().getHours();
+                    let greetings;
+
+                    if(hour < 18){
+                    greetings = "good day";
+                    }
+                    else{
+                      greetings = "good evening";
+                    }
+
+                    document.getElementById("demo").innerHTML=greetings;
                    </script>
+
 
 
 
