@@ -468,7 +468,7 @@
                     }
                   </script>-->
 
-                  <h1>looping over an array</h1>
+                  <!--<h1>looping over an array</h1>
                   <p>The for of statement loops through the values of any iterable object</p>
                   <p id = "demo"></p>
                   <script>
@@ -480,6 +480,19 @@
                     }
 
                     document.getElementById("demo").innerHTML=txt;
+                  </script>-->
+
+                  <h1>looping over a string</h1>
+                  <p>The for of statement loops through the values of an iterable object</p>
+                  <p id = "demo"></p>
+                  <script>
+                    const name = "grimi";
+
+                    let txt ="";
+                    for(let x in name){
+                      txt += name[x];
+                    }
+                    document.getElementById("demo").innerHTML = txt;
                   </script>
 
 
