@@ -589,7 +589,7 @@
                     document.getElementById("demo").innerHTML=txt;
                   </script>-->
 
-                  <h1>push()method</h1>
+                  <!--<h1>push()method</h1>
                   <p>The push method appends a new element to an array</p>
                   
                   <button onclick ="myFunction()">try it</button>
@@ -605,7 +605,24 @@
                      document.getElementById("demo").innerHTML=fruits;
 
                     }
+                  </script>-->
+
+                  <h1>adding array elements</h1>
+                  <p>>Adding elements with high indexes can create undefined "holes" in an array</p>
+                  <p id ="demo"></p>
+                  <script>
+                    const fruits = ["Banana", "Orange", "Apple"];
+                    fruits[3] = "Lemon";
+
+                    let flen = fruits.length;
+                    let txt = "";
+                    for(i = 0; i < flen; i++){
+                      txt +=fruits[i] + "<br>";
+                    }
+
+                    document.getElementById("demo").innerHTML=txt;
                   </script>
+                 
 
 
 
