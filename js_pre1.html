@@ -440,7 +440,7 @@
                     document.getElementById("demo").innerHTML = text;
                    </script>-->
 
-                   <h1>forIN over array</h1>
+                  <!--<h1>forIN over array</h1>
                    <p>The for in statement can loops over array values</p>
                    <p id ="demo"></p>
                    <script>
@@ -451,7 +451,22 @@
                       txt += number[x]+ "<br>";
                     }
                     document.getElementById("demo").innerHTML = txt;
-                   </script>
+                   </script>-->
+
+                  <h1>array foreach() method</h1>
+                  <p>Call a function once for each array element</p>
+                  <p id = "demo"></p>
+                  <script>
+                    const number = [1,2,3,4,5,6];
+
+                    let txt = "";
+                    number.forEach(myFunction)
+                    document.getElementById("demo").innerHTML=txt;
+
+                    function myFunction(value,index,array){
+                      txt += value + "<br>";
+                    }
+                  </script>
 
 
 
