@@ -567,12 +567,27 @@
                  </script>-->
                             
 
-                <h1>array object</h1>
+                <!--<h1>array object</h1>
                 <p id = "demo"></p>
                   <script>
                     const name =["grimi","patel","21"];
                     document.getElementById("demo").innerHTML=name[name.length -1];
-                    </script>    
+                  </script>-->
+                  
+                  <h1>looping array</h1>
+                  <p id ="demo"></p>
+                  <script>
+                    const fruits = ["banana","orange","mango"];
+                    let flen = fruits.length;
+
+                    let txt = "<ul>";
+                    for(let i = 0; i < flen; i++){
+                       txt +="<li>" + fruits[i] +"</li>";
+                    }
+                    txt += "</ul>";
+
+                    document.getElementById("demo").innerHTML=txt;
+                  </script>
 
 
 
