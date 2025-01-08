@@ -482,7 +482,7 @@
                     document.getElementById("demo").innerHTML=txt;
                   </script>-->
 
-                  <h1>looping over a string</h1>
+                  <!--<h1>looping over a string</h1>
                   <p>The for of statement loops through the values of an iterable object</p>
                   <p id = "demo"></p>
                   <script>
@@ -491,6 +491,18 @@
                     let txt ="";
                     for(let x in name){
                       txt += name[x];
+                    }
+                    document.getElementById("demo").innerHTML = txt;
+                  </script>-->
+
+                  <h1>while loop</h1>
+                  <p id = "demo"></p>
+                  <script>
+                    let txt ="";
+                    let i = 5;
+                    while(i < 10){
+                      txt += "<br>" + i;
+                      i++
                     }
                     document.getElementById("demo").innerHTML = txt;
                   </script>
