@@ -647,8 +647,8 @@
                     const fruits = ["Banana", "Orange", "Apple", "Mango"];
                     document.getElementById("demo").innerHTML ="Array: " +(fruits instanceof Array);
                   </script>-->
-                  
-                  <h2>The delete Method</h2>
+
+                  <!--<h2>The delete Method</h2>
 
                   <p>Deleting elements leaves undefined holes in an array:</p>
                   
@@ -665,6 +665,29 @@
                   
                   document.getElementById("demo2").innerHTML =
                   "The first fruit is: " + fruits[0];
+                  </script>-->
+
+                  <h2>Nested JavaScript Objects and Arrays.</h2>
+                  <p id="demo"></p>
+                  <script>
+                    let x = ""; 
+                    const myObj = {
+                      name: "John",
+                      age: 30,
+                      cars: [
+                         {name:"Ford", models:["Fiesta", "Focus", "Mustang"]},
+                         {name:"BMW", models :["320", "X3", "X5"]},
+                         {name:"Fiat", models:["500", "Panda"]}
+                      ]
+                    }
+
+                   for (let i in myObj.cars) {
+                    x += "<h2>" + myObj.cars[i].name + "</h2>";
+                    for (let j in myObj.cars[i].models) {
+                      x += myObj.cars[i].models[j] + "<br>";
+                     } 
+                   }
+                    document.getElementById("demo").innerHTML = x;
                   </script>
                  
 
