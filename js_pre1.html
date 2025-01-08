@@ -453,7 +453,7 @@
                     document.getElementById("demo").innerHTML = txt;
                    </script>-->
 
-                  <h1>array foreach() method</h1>
+                  <!--<h1>array foreach() method</h1>
                   <p>Call a function once for each array element</p>
                   <p id = "demo"></p>
                   <script>
@@ -466,6 +466,20 @@
                     function myFunction(value,index,array){
                       txt += value + "<br>";
                     }
+                  </script>-->
+
+                  <h1>looping over an array</h1>
+                  <p>The for of statement loops through the values of any iterable object</p>
+                  <p id = "demo"></p>
+                  <script>
+                    const car=["bmw","alto","audi"];
+
+                    let txt = "";
+                    for(let x in car){
+                      txt += car[x] +"<br>";
+                    }
+
+                    document.getElementById("demo").innerHTML=txt;
                   </script>
 
 
