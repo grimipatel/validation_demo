@@ -640,16 +640,32 @@
                     document.getElementById("demo").innerHTML =Array.isArray(fruits);
                   </script>-->
 
-                  <h1>instanceOf operator</h1>
+                  <!--<h1>instanceOf operator</h1>
                   <p>The instanceof operator returns true if an object is an instance of a specified object type</p>
                   <p id = "demo"></p>
                   <script>
                     const fruits = ["Banana", "Orange", "Apple", "Mango"];
                     document.getElementById("demo").innerHTML ="Array: " +(fruits instanceof Array);
-                  </script>
-
-
+                  </script>-->
                   
+                  <h2>The delete Method</h2>
+
+                  <p>Deleting elements leaves undefined holes in an array:</p>
+                  
+                  <p id="demo1"></p>
+                  <p id="demo2"></p>
+                  
+                  <script>
+                  const fruits = ["Banana", "Orange", "Apple", "Mango"];
+                  
+                  document.getElementById("demo1").innerHTML =
+                  "The first fruit is: " + fruits[0];
+                  
+                  delete fruits[0];
+                  
+                  document.getElementById("demo2").innerHTML =
+                  "The first fruit is: " + fruits[0];
+                  </script>
                  
 
 
