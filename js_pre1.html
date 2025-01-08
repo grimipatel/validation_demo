@@ -574,7 +574,7 @@
                     document.getElementById("demo").innerHTML=name[name.length -1];
                   </script>-->
                   
-                  <h1>looping array</h1>
+                  <!--<h1>looping array</h1>
                   <p id ="demo"></p>
                   <script>
                     const fruits = ["banana","orange","mango"];
@@ -587,6 +587,24 @@
                     txt += "</ul>";
 
                     document.getElementById("demo").innerHTML=txt;
+                  </script>-->
+
+                  <h1>push()method</h1>
+                  <p>The push method appends a new element to an array</p>
+                  
+                  <button onclick ="myFunction()">try it</button>
+
+                  <p id = "demo"></p>
+                  <script>
+                     const fruits = ["banana","orange","mango"];
+                     document.getElementById("demo").innerHTML=fruits;
+
+                    function myFunction(){
+                      fruits.push("apple");
+                      
+                     document.getElementById("demo").innerHTML=fruits;
+
+                    }
                   </script>
 
 
