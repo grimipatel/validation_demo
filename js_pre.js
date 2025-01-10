@@ -41,6 +41,10 @@ else{
     console.log("your number is not divisible by 2 and 3")
 }*/
 
-let age = 12
-let a = age>18? "you can drive" : "you can not drive"
-console.log(a)
+// let age = 12
+// let a = age>18? "you can drive" : "you can not drive"
+// console.log(a)
+
+for(let i=0; i<5; i++){
+    console .log(i)
+}
