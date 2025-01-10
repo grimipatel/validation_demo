@@ -45,6 +45,15 @@ else{
 // let a = age>18? "you can drive" : "you can not drive"
 // console.log(a)
 
-for(let i=0; i<5; i++){
-    console .log(i)
+// for(let i=0; i<5; i++){
+//     console .log(i)
+// }
+
+let sum = 0
+let n =prompt("Enter the value of n")
+n = Number.parseInt(n)
+for(let i=0; i<n; i++){
+    sum += (i+1)
+    console.log((i+1), "+" )
 }
+console.log("sum of first number"  +  n  +  " natural number is "  +  sum)
