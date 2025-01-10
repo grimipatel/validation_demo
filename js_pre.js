@@ -32,11 +32,15 @@ switch(age){
         console.log("your age is not special")
 }*/
 
-let num = prompt("what is your age")
+/*let num = prompt("what is your age")
 num = Number.parseInt(num)
 if (num % 2 == 0 || num % 3 == 0) {
     console.log("your number is divisible by 2 and 3")
 }
 else{
     console.log("your number is not divisible by 2 and 3")
-}
+}*/
+
+let age = 12
+let a = age>18? "you can drive" : "you can not drive"
+console.log(a)
