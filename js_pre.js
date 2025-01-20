@@ -196,8 +196,11 @@ console.log(reverseNum(123))*/
     /*let name = "grimi"
     console.log(name.length)*/
 
-    let girl1 = "grimi";
-    let girl2 = "tisha";
+    // let girl1 = "grimi";
+    // let girl2 = "tisha";
     
-    let sentence = `${girl1} is friend of ${girl2}`
-    console.log(sentence)
+    // let sentence = `${girl1} is friend of ${girl2}`
+    // console.log(sentence)
+
+    let fruit = 'bana\'na'
+    console.log(fruit.length)
