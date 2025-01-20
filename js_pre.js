@@ -136,10 +136,22 @@ console.log(reverseNum(123))*/
     }
     console.log(reverseNum(123))*/
 
-    let n = prompt("enter the number n")
+    /*let n = prompt("enter the number n")
     n = Number.parseInt(n)
     let i = 10;
     do{
         console.log(i)
         i++;
-    }while(i < n)
+    }while(i < n)*/
+
+    function onePlusAvg(x,y){
+        return 1 + (x + y) / 2
+    }
+
+    let a = 1;
+    let b = 2;
+    let c = 3;
+
+    console.log(onePlusAvg(a ,b))
+    console.log(onePlusAvg(b, c))
+    console.log(onePlusAvg(c, a))
