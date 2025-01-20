@@ -180,9 +180,15 @@ console.log(reverseNum(123))*/
         console.log(i + marks [i])
     }*/
 
-    let cn = 23
+    /*let cn = 23
     let i
     while(i != cn){
         i = prompt("enter a number")
     }
-    console.log("you have entered a correct number")
+    console.log("you have entered a correct number")*/
+
+    const mean =(a, b, c, d) => {
+        return(a+ b+ c+ d)/4
+    }
+
+    console.log(mean(4, 5, 6, 7))
