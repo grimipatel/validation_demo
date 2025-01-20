@@ -104,7 +104,7 @@ console.log(reverseNum(123))*/
   }
   console.log(n + sum)*/
 
-  let obj = {
+  /*let obj = {
     grimi : 28,
     tisha : 45,
     rutvi : 45,
@@ -112,4 +112,12 @@ console.log(reverseNum(123))*/
   }
   for(let a in obj){
      console.log(a + obj[a])
-  }
+  }*/
+
+     let n = prompt("enter the value of n")
+     n = Number.parseInt(n)
+     let i = 0;
+     while(i < n){
+        console.log(i)
+        i++; 
+     }
