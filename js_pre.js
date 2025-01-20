@@ -187,8 +187,11 @@ console.log(reverseNum(123))*/
     }
     console.log("you have entered a correct number")*/
 
-    const mean =(a, b, c, d) => {
+    /*const mean =(a, b, c, d) => {
         return(a+ b+ c+ d)/4
     }
 
-    console.log(mean(4, 5, 6, 7))
+    console.log(mean(4, 5, 6, 7))*/
+
+    let name = "grimi"
+    console.log(name.length)
