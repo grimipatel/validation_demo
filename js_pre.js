@@ -193,5 +193,11 @@ console.log(reverseNum(123))*/
 
     console.log(mean(4, 5, 6, 7))*/
 
-    let name = "grimi"
-    console.log(name.length)
+    /*let name = "grimi"
+    console.log(name.length)*/
+
+    let girl1 = "grimi";
+    let girl2 = "tisha";
+    
+    let sentence = `${girl1} is friend of ${girl2}`
+    console.log(sentence)
