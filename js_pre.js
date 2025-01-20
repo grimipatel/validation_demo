@@ -205,7 +205,7 @@ console.log(reverseNum(123))*/
     // let fruit = 'bana\'na'
     // console.log(fruit.length)
 
-    let name = "Grimi"
+    /*let name = "Grimi"
     // console.log(name.length)
 
     // console.log(name.toUpperCase())
@@ -216,4 +216,7 @@ console.log(reverseNum(123))*/
     let friend = "tisha"
     console.log(name.concat(" is a friend of " , friend , " ok "))
     let friend2 = "   dhani   "
-    console.log(friend2.trim())
+    console.log(friend2.trim())*/
+
+    let str = "gri\""
+    console.log(str.length)
