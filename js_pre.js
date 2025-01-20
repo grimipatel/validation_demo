@@ -169,7 +169,7 @@ console.log(reverseNum(123))*/
     console.log(onePlusAvg(c, a))
     console.log(sum(9,7))*/
 
-    let marks = {
+    /*let marks = {
         grimi : 34,
         tisha : 35,
         rutvi : 36,
@@ -178,5 +178,11 @@ console.log(reverseNum(123))*/
     
     for (let i in marks){
         console.log(i + marks [i])
-    }
+    }*/
 
+    let cn = 23
+    let i
+    while(i != cn){
+        i = prompt("enter a number")
+    }
+    console.log("you have entered a correct number")
