@@ -221,5 +221,10 @@ console.log(reverseNum(123))*/
     // let str = "gri\""
     // console.log(str.length)
 
-    let name = "GRIMI"
-    console.log(name.toLowerCase())
+    // let name = "GRIMI"
+    // console.log(name.toLowerCase())
+
+    let str = "please give Rs 1000"
+    let amount = Number.parseInt(str.slice(15))
+    console.log(amount)
+    console.log(typeof amount)
