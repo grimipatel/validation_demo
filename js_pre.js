@@ -123,7 +123,7 @@ console.log(reverseNum(123))*/
      }*/
 
 
-     function reverseNum(num){
+     /*function reverseNum(num){
         if(num>=0 && num<=9){
             return num;
         }
@@ -134,4 +134,12 @@ console.log(reverseNum(123))*/
         }
        return reverseNum;
     }
-    console.log(reverseNum(123))
+    console.log(reverseNum(123))*/
+
+    let n = prompt("enter the number n")
+    n = Number.parseInt(n)
+    let i = 10;
+    do{
+        console.log(i)
+        i++;
+    }while(i < n)
