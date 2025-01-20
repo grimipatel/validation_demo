@@ -215,3 +215,5 @@ console.log(reverseNum(123))*/
 
     let friend = "tisha"
     console.log(name.concat(" is a friend of " , friend , " ok "))
+    let friend2 = "   dhani   "
+    console.log(friend2.trim())
