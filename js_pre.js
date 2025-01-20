@@ -96,10 +96,20 @@ console.log(reverseNum(123))*/
   
   console.log("The largest value is:", result);*/
 
-  let sum =0
+  /*let sum =0
   let n = prompt("enter the number n")
   n = Number.parseInt(n)
   for(let i = 0; i<n; i++){
     sum += (i)
   }
-  console.log(n + sum)
+  console.log(n + sum)*/
+
+  let obj = {
+    grimi : 28,
+    tisha : 45,
+    rutvi : 45,
+    dhani : 35
+  }
+  for(let a in obj){
+     console.log(a + obj[a])
+  }
