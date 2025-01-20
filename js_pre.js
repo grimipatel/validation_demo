@@ -49,11 +49,57 @@ else{
 //     console .log(i)
 // }
 
-let sum = 0
-let n =prompt("Enter the value of n")
-n = Number.parseInt(n)
-for(let i=0; i<n; i++){
-    sum += (i+1)
-    console.log((i+1), "+" )
+// let sum = 0
+// let n =prompt("Enter the value of n")
+// n = Number.parseInt(n)
+// for(let i=0; i<n; i++){
+//     sum += (i+1)
+//     console.log((i+1), "+" )
+// }
+// console.log("sum of first number"  +  n  +  " natural number is "  +  sum)
+
+
+/*function reverseNum(num){
+    if(num>=0 && num<=9){
+        return num;
+    }
+    let reverseNum = 0;
+    while(num != 0){
+        reverseNum = reverseNum * 10 +(num%10)
+        num = Math.floor(num/10)
+    }
+   return reverseNum;
 }
-console.log("sum of first number"  +  n  +  " natural number is "  +  sum)
+console.log(reverseNum(123))*/
+
+/*function findLargest(a, b, c, d) {
+    let largest;
+  
+    if (a >= b && a >= c && a >= d) {
+      largest = a;
+    } else if (b >= a && b >= c && b >= d) {
+      largest = b;
+    } else if (c >= a && c >= b && c >= d) {
+      largest = c;
+    } else {
+      largest = d;
+    }
+  
+    return largest;
+  }
+  
+  const a = 15;
+  const b = 5;
+  const c = 8;
+  const d = 10;
+  const result = findLargest(a,b,c,d);
+  
+  console.log("The largest value is:", result);*/
+
+  let sum =0
+  let n = prompt("enter the number n")
+  n = Number.parseInt(n)
+  for(let i = 0; i<n; i++){
+    sum += (i)
+  }
+  console.log(n + sum)
