@@ -145,7 +145,7 @@ console.log(reverseNum(123))*/
     }while(i < n)*/
 
 
-    const hello = ()=>{
+    /*const hello = ()=>{
         console.log("hey how are you")
         return "hi"
     }
@@ -167,4 +167,15 @@ console.log(reverseNum(123))*/
     console.log(onePlusAvg(a ,b))
     console.log(onePlusAvg(b, c))
     console.log(onePlusAvg(c, a))
-    console.log(sum(9,7))
+    console.log(sum(9,7))*/
+
+    let marks = {
+        grimi : 34,
+        tisha : 35,
+        rutvi : 36,
+        dhani : 37
+    }
+    
+    for (i = 0; i< Object.keys(marks).length; i++){
+        console.log(Object.keys(marks)[i] + marks[Object.keys(marks)[i]])
+    }
