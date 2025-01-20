@@ -218,5 +218,8 @@ console.log(reverseNum(123))*/
     let friend2 = "   dhani   "
     console.log(friend2.trim())*/
 
-    let str = "gri\""
-    console.log(str.length)
+    // let str = "gri\""
+    // console.log(str.length)
+
+    let name = "GRIMI"
+    console.log(name.toLowerCase())
