@@ -202,5 +202,16 @@ console.log(reverseNum(123))*/
     // let sentence = `${girl1} is friend of ${girl2}`
     // console.log(sentence)
 
-    let fruit = 'bana\'na'
-    console.log(fruit.length)
+    // let fruit = 'bana\'na'
+    // console.log(fruit.length)
+
+    let name = "Grimi"
+    // console.log(name.length)
+
+    // console.log(name.toUpperCase())
+    // console.log(name.toLowerCase())
+    // console.log(name.slice(2,4))
+    // console.log(name.replace("Gri", "dri"))
+
+    let friend = "tisha"
+    console.log(name.concat(" is a friend of " , friend , " ok "))
