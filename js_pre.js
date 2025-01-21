@@ -265,11 +265,16 @@ console.log(reverseNum(123))*/
       let a = num.join("_") 
       console.log(a, typeof a)
       
-      num.pop() // pop aetle ke nikalvu
-      console.log(num)
+    //   num.pop() // pop aetle ke nikalvu
+    //   console.log(num)
       
-      let r = num.pop()  // r ae pop karela element ne return karse
-      console.log(num, r)
+    //   let r = num.pop()  // r ae pop karela element ne return karse
+    //   console.log(num, r)
 
-      let b = num.push(34)
-      console.log(num ,b)
+    //   let b = num.push(34)
+    //   console.log(num ,b)
+
+    let g = num.shift()
+    console.log(g, num) // shift method ae first element ne remove karse ane original array ne return kari shaky
+    let d = num.unshift(36)
+    console.log(d, num)
