@@ -73,7 +73,7 @@ else{
 console.log(reverseNum(123))*/
 
 /*function findLargest(a, b, c, d) {
-    let largest;
+    const largest;
   
     if (a >= b && a >= c && a >= d) {
       largest = a;
@@ -224,7 +224,24 @@ console.log(reverseNum(123))*/
     // let name = "GRIMI"
     // console.log(name.toLowerCase())
 
-    let str = "please give Rs 1000"
-    let amount = Number.parseInt(str.slice(15))
-    console.log(amount)
-    console.log(typeof amount)
+    // let str = "please give Rs 1000"
+    // let amount = Number.parseInt(str.slice(15))
+    // console.log(amount)
+    // console.log(typeof amount)
+
+    // const num = [1,2,3,4,5,6,7,8,9,10]
+
+    // const num2 = num.map(element => element * 5)
+    // console.log(num2)
+
+    let marks = [57, 23, 46, 45, false, "not present"]
+    console.log(marks[0])
+    console.log(marks[1])
+    console.log(marks[2])
+    console.log(marks[3])
+    console.log(marks[4])
+    console.log(marks[5])
+    console.log(marks.length)
+    marks[0] = 56
+    console.log(marks)
+    console.log(typeof marks)
