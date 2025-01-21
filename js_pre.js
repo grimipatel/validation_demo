@@ -260,4 +260,6 @@ console.log(reverseNum(123))*/
 
       let num = [1,2,3,4,5]
       let i = num.toString()
-      console.log(i)
+      console.log(i, typeof i)
+      let a = num.join("_") 
+      console.log(a, typeof a)
