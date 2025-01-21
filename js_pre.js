@@ -234,7 +234,7 @@ console.log(reverseNum(123))*/
     // const num2 = num.map(element => element * 5)
     // console.log(num2)
 
-    let marks = [57, 23, 46, 45, false, "not present"]
+    /*let marks = [57, 23, 46, 45, false, "not present"]
     console.log(marks[0])
     console.log(marks[1])
     console.log(marks[2])
@@ -244,4 +244,15 @@ console.log(reverseNum(123))*/
     console.log(marks.length)
     marks[0] = 56
     console.log(marks)
-    console.log(typeof marks)
+    console.log(typeof marks)*/
+
+    // Define the array 
+    const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    
+    const multipliedNumbers = [];
+    
+    for (let i = 0; i < 10; i++) { // 10 = number.length(array ni length)
+       const multipliedNumber = numbers[i] * 5;
+       multipliedNumbers.push(multipliedNumber);//push method no use kari ne multipliednumber ne aena array ma push karya
+    }
+      console.log(multipliedNumbers);
