@@ -247,7 +247,8 @@ console.log(reverseNum(123))*/
     console.log(typeof marks)*/
 
     // Define the array 
-    const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    
+    /*const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
     
     const multipliedNumbers = [];
     
@@ -255,4 +256,8 @@ console.log(reverseNum(123))*/
        const multipliedNumber = numbers[i] * 5;
        multipliedNumbers.push(multipliedNumber);//push method no use kari ne multipliednumber ne aena array ma push karya
     }
-      console.log(multipliedNumbers);
+      console.log(multipliedNumbers);*/
+
+      let num = [1,2,3,4,5]
+      let i = num.toString()
+      console.log(i)
