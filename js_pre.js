@@ -263,3 +263,7 @@ console.log(reverseNum(123))*/
       console.log(i, typeof i)
       let a = num.join("_") 
       console.log(a, typeof a)
+      num.pop() // pop aetle ke nikalvu
+      console.log(num)
+      let r = num.pop()
+      console.log(num, r)
