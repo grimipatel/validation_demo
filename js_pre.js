@@ -261,9 +261,15 @@ console.log(reverseNum(123))*/
       let num = [1,2,3,4,5]
       let i = num.toString()
       console.log(i, typeof i)
+      
       let a = num.join("_") 
       console.log(a, typeof a)
+      
       num.pop() // pop aetle ke nikalvu
       console.log(num)
-      let r = num.pop()
+      
+      let r = num.pop()  // r ae pop karela element ne return karse
       console.log(num, r)
+
+      let b = num.push(34)
+      console.log(num ,b)
